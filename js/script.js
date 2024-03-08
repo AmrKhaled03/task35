@@ -108,7 +108,7 @@ function renderIdeas() {
             <img src="${idea.img}" alt="${idea.name}" class="img-fluid"/>
 
            
-              <button type="button" class="p-2 btn btn-primary btn-md btn-rounded w-25 my-3">
+              <button type="button" class="p-2 btn btn-primary btn-md btn-rounded w-100 my-3">
 <a href="${idea.link}" target="_blank" class="text-white">
 Details</a>
             
