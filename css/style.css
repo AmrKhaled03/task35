@@ -13,32 +13,31 @@ body {
   height: auto !important;
 }
 .tabs {
-    position: relative;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
   }
   
  
   
   ul {
     list-style-type: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
   
   li {
     padding: 10px 15px;
     background-color: blue;
-  min-width: 110px;
-       font-weight: bold;
+    min-width: 110px;
+    font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    transition: 0,2s ease-in-out;
+    transition: 0.2s ease-in-out; /* Corrected typo in transition */
     overflow: hidden;
     color: #fff;
     cursor: pointer;
